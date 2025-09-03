@@ -1,0 +1,27 @@
+:root{
+    --color-primary: #353535;
+    --color-seconday: #8A897C;
+    --color-append1: #BDBBB0;
+    --color-append2: #D2D7DF;
+    --font-family: "TASA Orbiter", sans-serif;
+}
+
+body{
+    display: grid;
+    font-family: var(--font-family);
+}
+
+nav {
+    background-color: var(--color-append2);
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: var(--color-primary);
+}
