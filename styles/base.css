@@ -71,8 +71,6 @@ nav ul{
 .my-picture{
     float: right;
     margin-left: 10px;
-
-
 }
 .my-picture img{
     width: 150px;
@@ -100,8 +98,7 @@ nav ul{
 
 .section-body{
     padding: 10px;
-    display: flex;
-    
+    display: flex
 }
 
 .resources ol{
@@ -112,4 +109,11 @@ nav ul{
 
 .resources ol a{
     padding: 5px;
+}
+
+.brazil {
+    padding-left: 10px;
+    width: 50px;
+    align-self: center;
+    justify-self: center;
 }
