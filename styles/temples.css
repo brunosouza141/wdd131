@@ -80,7 +80,7 @@ header{
 }
 
 #hamburger.open::before{
-    content: "❌" ;
+    content: "❌ Close" ;
     
 }
 
