@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (windSpeed > 4.8 && temperature <= 10)
     {
         let windChillResult = calculateWindChill(temperature, windSpeed);
-        windChillElement.textContent= `${windChillResult.toFixed(2)} C`;
+        windChillElement.textContent= `${windChillResult.toFixed(2)} °C`;
         console.log(windChillResult)
     }
     else{
