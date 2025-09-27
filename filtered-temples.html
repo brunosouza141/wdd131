@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Picture Album assignment">
+    <meta name="author" content="Bruno Souza">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <title>WDD 131 – Dynamic Web Fundamentals – Bruno Souza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap" rel="stylesheet">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <button id="hamburger"></button>
+        <nav>
+	        <ul class="nav-list">
+	        	<li><a href="#" title="linkedin" id="home">Home</a></li>
+	        	<li><a href="#" title="canvas" id="old">Old</a></li>
+	        	<li><a href="#" title="scripture" id="new">New</a></li>
+                <li><a href="#" title="final project" id="large">Large</a></li>
+                <li><a href="#" title="final project" id="small">Small</a></li>
+	        </ul>
+        </nav>
+        <h1>Temple Album</h1>
+    </header>
+    <main>
+        <h2 id="title">Home</h2>
+        <div class="images-container" id="images-container">
+
+        </div>
+    </main>
+    <footer>
+        <p>©️ <span id="currentyear"></span> - Bruno Souza - Santa Catarina - Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

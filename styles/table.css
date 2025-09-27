@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+caption{
+    caption-side: bottom;
+}
+tbody:nth-child(odd){
+    background-color:beige;
+}
+
+.all-black{
+    color: white;
+    background-color: black;
+}
+
+.all-grey{
+    color: white;
+    background-color: grey;
+}
+
+tr, td {
+    border: 2px solid black;
+}
