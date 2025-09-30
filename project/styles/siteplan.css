@@ -1,0 +1,14 @@
+:root{
+    --primary-color: #1B264F;
+    --secondary-color: #274690;
+    --terciary-color: #576CA8;
+    --background-color: #F5F3F5;
+    --font-family: "Inter", sans-serif;
+
+}
+
+body{
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    font-family: var(--font-family)
+}
