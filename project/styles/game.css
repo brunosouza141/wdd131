@@ -259,3 +259,54 @@ article img.mozaic {
   height: auto;
   border-radius: 10px; /* opcional, só pra deixar bonito */
 }
+
+form{
+    margin: 20px;
+    border: 3px solid var(--color-append1);
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form p{
+    font-size: 1.3rem;
+    background-color: var(--color-append1);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+form fieldset label{
+    padding: 7px;
+}
+
+form fieldset input[type="text"],
+form fieldset input[type="email"],
+form fieldset label,
+form fieldset select{
+    display: block;
+}
+form fieldset input[type="text"],
+form fieldset input[type="email"],
+form fieldset select{
+    background-color: var(--color-append2);
+    padding: 5px;
+}
+
+.optional-text {
+    color: darkblue;
+    font-size: 0.7rem;
+}
+
+form button{
+    background-color: var(--color-primary);
+    color: var(--color-append2);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 10px;
+}

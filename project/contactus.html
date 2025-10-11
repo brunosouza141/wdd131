@@ -27,7 +27,41 @@
         <h1>Adventure games</h1>
     </header>
     <main>
-
+        <form action="/submit" method="post">
+            <p>Please let us know if you missed any game on this list.</p>
+            <fieldset>
+                <legend>Your information</legend>
+                <label>Your name: <input type="text" placeholder="John Smith" name="user-name" required></label>
+                <label>Email: <input type="email" placeholder="john.smith@gmai.com" name="user-email" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Game description</legend>
+                <label>Game name: <input type="text" name="game-name" required></label>
+                <label>Your review score: <span class="optional-text">(optional)</span>
+                    <select name="review">
+                        <option value="" disabled>Select your score</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </label>
+                <label>Game store link: <span class="optional-text">(optional)</span><input type="text" name="link" placeholder="Steam/PlayStation/Microsoft"></label>
+                <label>Where are you currently playing? <span class="optional-text">(optional)</span>
+                    
+                    <label class="checkbox"><input type="checkbox"  name="platforms" value="playstation"> PlayStation</label>
+                    <label class="checkbox"><input type="checkbox" name="platforms" value="xbox"> Xbox</label>
+                    <label class="checkbox"><input type="checkbox" name="platforms" value="pc"> PC</label>
+                </label>
+            </fieldset>
+            <button type="submit">Send game</button>
+        </form>
     </main>
     <footer>
         <p>©️ <span id="currentyear"></span> - Bruno Souza - Santa Catarina - Brazil</p>
