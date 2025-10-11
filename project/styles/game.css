@@ -188,12 +188,74 @@ footer{
 
 .hide{
     display: none;
+    transition: all 2s ease;
 }
 
 .show{
     display: grid;
+    transition: all 2s ease;
 }
 
 .show-block{
     display: block!important;
+}
+
+h2, div{
+    transition: all 2s ease;
+}
+
+.filter-list{
+    display: flex;
+
+}
+
+.filter-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filter-list ul a{
+    padding: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+#all{
+    color: var(--color-seconday);
+}
+
+#ps4{
+    color:#0057A6;
+}
+
+#xbox{
+    color: #107C10;
+}
+
+#pc{
+    color: red;
+}
+
+
+.home-welcome{
+    font-size: large;
+    width: 50%;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; 
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+article p {
+  flex: 1; /* o texto ocupa o espaço restante */
+}
+
+article img.mozaic {
+  width: 300px; /* tamanho fixo opcional */
+  height: auto;
+  border-radius: 10px; /* opcional, só pra deixar bonito */
 }

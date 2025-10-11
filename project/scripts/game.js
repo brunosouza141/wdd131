@@ -185,6 +185,7 @@ function createGamesGrid(gamesList){
     let platformsI = document.createElement("i");
     let buyLink = document.createElement("a");
     buyLink.setAttribute("href", game.purchase_link)
+    buyLink.setAttribute("target", "_blank")
     buyLink.textContent = "Click here to buy";
     platformsI.textContent = game.platforms;
     divDetails.appendChild(reviewStrong);
@@ -207,14 +208,14 @@ function createGamesGrid(gamesList){
   });
 };
 
-const homeIndex = document.getElementById("home");
+const allIndex = document.getElementById("all");
 const ps4Index = document.getElementById("ps4");
 const xboxIndex = document.getElementById("xbox");
 const pcIndex = document.getElementById("pc");
 
 createGamesGrid(adventureGames);
-homeIndex.addEventListener("click", () => {
-    title.textContent = "Home";
+allIndex.addEventListener("click", () => {
+    title.textContent = "All";
     createGamesGrid(adventureGames);
 });
 
